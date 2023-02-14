@@ -50,7 +50,7 @@ export const HeroSectionStyles = styled.div`
       width: 50%;
       height: 100%;
       .hero__image {
-        margin-top: 4rem;
+        margin-top: 3rem;
         width: 70%;
         height: 100%;
       }

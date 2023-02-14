@@ -2,7 +2,7 @@ import { graphql } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import React from 'react';
 import BlogGrid from '../components/blog/BlogGrid';
-import MyPortableText from '../components/MyPortableText';
+// import MyPortableText from '../components/MyPortableText';
 import PageHeader from '../components/PageHeader';
 import PageSpace from '../components/PageSpace';
 import SEO from '../components/SEO';
@@ -55,7 +55,7 @@ function SingleCategory({ data }) {
         <div className="container">
           <SEO title={category.title} />
           <PageHeader title={category.title} className="pageHeader">
-            <MyPortableText value={category._rawDescription} />
+            {/* <MyPortableText value={category._rawDescription} /> */}
             <GatsbyImage
               image={category.coverImage.asset.gatsbyImageData}
               alt={category.coverImage.alt}
