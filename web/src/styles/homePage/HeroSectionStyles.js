@@ -25,6 +25,7 @@ export const HeroSectionStyles = styled.div`
     .left {
       width: 50%;
       padding: 50px 0;
+      margin-left: 8rem;
       .hero__heading {
         max-width: 450px;
         font-size: 4rem;
@@ -49,6 +50,7 @@ export const HeroSectionStyles = styled.div`
       width: 50%;
       height: 100%;
       .hero__image {
+        margin-top: 4rem;
         width: 70%;
         height: 100%;
       }
