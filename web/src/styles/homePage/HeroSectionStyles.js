@@ -55,7 +55,7 @@ export const HeroSectionStyles = styled.div`
     }
   }
 
-  @media only screen and (max-width: 1620px) {
+  @media only screen and (max-width: 1230px) {
     .hero__wrapper {
       height: 100%;
       display: flex;
